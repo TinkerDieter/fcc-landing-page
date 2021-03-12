@@ -1,0 +1,28 @@
+The main folder is the ROOT folder. It immediately contains the html files for the project.
+    The root folder cotains all files and folders for the project.
+The css folder contains all Cascading Style Sheet files. 
+The js folder contains all Java Script files. 
+The img folder will have all the images and media assets. 
+    These should be further organized within the folder, according to sections and pages. 
+        eg all favicons in facicon folder and all home page images in home folder
+The fonts folder contains all external fonts, which later is imported in css and create font families.
+The common folder may also be called the components folder. Common HTML files that later are imported into main pages with JS. 
+    eg. many or all pages may have the same navbar imported with JS using .load() function
+        using an empty div with relevant class or id .. $(.nav_container).load(./common/navbar.html); FOR EXAMPLE
+        this means you dont need to change the nav code 15 times to update, just change the common file and JS does the rest
+        works only on server though
+        NOTE: vss can create a local server
+The scss contains all scss files. SCSS is based on SASS, which is based on ruby. Will learn later, they are processed by the server to outputt CSS to the browser
+    SCSS makes css easier and faster.  
+the main entry page index.html and rest of the main web pages go in root.
+
+this project only uses root, img, fonts, and css
+
+<input> should have both name and id. name is required for server side collection, whereas
+    id links the touch field to its label for accesibility
+
+inputs nested inside label do not need name and id because it is implied
+
+flex containers must be declared, and their children who should have flex must also be declared flex. 
+
+radio buttons must share the same name in order to be exclusive
