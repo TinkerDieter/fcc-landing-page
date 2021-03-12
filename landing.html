@@ -16,17 +16,45 @@
         </nav>
     </header>
 
-    <div>
-        <h1>Title for Product Page</h1>
-        <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
-            <label for="email">Follow our product line!</label>
-                <input
-                    name="email"
-                    value="email"
-                    type="email"
-                    placeholder="Please enter your email"
-                    >
-                <input id="submit" type="submit" value="Submit">
-        </form>
+    
+    <h1 id="title">Title for Product Page</h1>
+
+     <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+         <label for="email" id="form-label">Follow our product line!</label>
+           <input
+                 id="email"
+                 name="email"
+                 type="email"
+                placeholder="Please enter your email"
+                >
+           <input id="submit" type="submit" value="Submit">
+    </form>
+
+    <iframe 
+        id="video" 
+        src="https://www.youtube.com/embed/OrLeuN5JXMg" 
+        title="">
+    </iframe>
+
+ <div id="flex-feature-container">
+    <div id="flex-img-container">
+        <img class="flex-imgs" id="feature-img" src="./img/rainbow.png" alt="">
+        <img class="flex-imgs" id="feature-img" src="./img/hurricane.png" alt="">
+        <img class="flex-imgs" id="feature-img" src="./img/meteor.png" alt="">
     </div>
+    <div id="flex-detail-container">
+        <div class="flex-detail">
+        <h2>Feature 1</h2>
+        <p>Here are some details</p>
+    </div>
+    <div class="flex-detail">
+        <h2>Feature 2</h2>
+        <p>Heres some more details</p>
+    </div>
+        <div class="flex-detail">
+        <h2>Feature 3</h2>
+        <p>Ok just a few more details</p>
+    </div>
+    </div>
+  </div>
 </body>

@@ -28,3 +28,8 @@ flex containers must be declared, and their children who should have flex must a
 radio buttons must share the same name in order to be exclusive
 
 MAKE SURE TO DO BROWSER RESET to overcome browser settings, eg padding and margin 0
+
+sticky positioning requires atleast top, bottom, left, or right style to work
+
+to get two flex containers next to eachother, put them both inside another container.
+

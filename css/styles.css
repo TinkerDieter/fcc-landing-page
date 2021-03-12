@@ -8,10 +8,52 @@ html {
     box-sizing: border-box;
 }
 
+h2 {
+    font-size: 2.75rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+#title {
+    font-size: 6rem;
+    margin: 2rem 0 1.25rem;
+}
+
+#form{
+    width: fit-content;
+    margin: 0 auto;
+}
+#form-label {
+    display: block;
+   font-size: 2.75rem;
+}
+
+#email {
+    height: 2.75rem;
+    margin: 1.25rem 0 1.25rem;
+    width: 100%;
+}
+#submit {
+    display: block;
+    height: 3rem;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2.5rem;
+    margin-bottom: 5rem;
+}
+
+body {
+    text-align: center;
+}
+
 header {
     display: block;
     background-color: #444;
     position: sticky;
+    top: 0;
     width: 100vw;
     height: 7rem;
 }
@@ -31,4 +73,44 @@ nav li {
 nav a {
     display: block;
     text-decoration: none;
+}
+
+#video {
+    border-radius: 10px;
+    border-color: transparent;
+    height: 315px;
+    width: 560px;
+    margin-bottom: 5rem;
+}
+
+#flex-img-container {
+    width: 10rem;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+
+}
+
+#flex-detail-container {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.flex-detail {
+    height: 33.3%;
+    align-self: flex-start;
+}
+
+#feature-img {
+    height: auto;
+}
+
+#flex-feature-container {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    height: fit-content;
 }
