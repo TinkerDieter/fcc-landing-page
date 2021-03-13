@@ -1,38 +1,44 @@
 <!DOCTYPE html>
 <head>
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="./js/scripts.js"></script> 
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Raleway:wght@300&family=Unica+One&display=swap" rel="stylesheet"> 
     <title>Landing Page</title>
 </head>
 
 <body>
     <header id="header">
-        <img id="header-img" src="" alt="">
+        <img id="header-img" src="./img/satanic.png" alt="">
+        <p id="company-name">Illuminati Solutions LLC</p>
         <nav id="nav-bar">
             <ul>
-                <li class="nav-link">Nav1</li>
-                <li class="nav-link">Nav2</li>
-                <li class="nav-link">Nav3</li>
+                <li class="nav-link"><a href="#video">Product Demonstration</a></li>
+                <li class="nav-link"><a href="#flex-feature-container">Selection and Features</a></li>
+                <li class="nav-link"><a href="#flex-price-container">Pricing</a></li>
             </ul>
         </nav>
     </header>
 
     
-    <h1 id="title">Title for Product Page</h1>
+    <h1 id="title">Villainous Weather Control Devices</h1>
 
      <form id="form" action="https://www.freecodecamp.com/email-submit" method="POST">
+        <div id="form-container">
          <label for="email" id="form-label">Follow our product line!</label>
            <input
                  id="email"
                  name="email"
                  type="email"
-                placeholder="Please enter your email"
+                 placeholder="Enter your email to stay informed"
                 >
-           <input id="submit" type="submit" value="Submit">
+           <input id="submit" type="submit" value="SUBMIT">
+        </div>
     </form>
 
     <iframe 
         id="video" 
-        src="https://www.youtube.com/embed/OrLeuN5JXMg" 
+        src="https://www.youtube.com/embed/gj8K_Q8Cu9U" 
         title="">
     </iframe>
 
@@ -44,17 +50,55 @@
     </div>
     <div id="flex-detail-container">
         <div class="flex-detail">
-        <h2>Feature 1</h2>
-        <p>Here are some details</p>
+        <h2>Spruce up your lair!</h2>
+        <p>Every good villain relies on his army of lackies to toil away in his secret lair. With our product, your lair will become the land of perpetual rainbows and sunshine! Your minions will work extra hard towards your goals of world domination with a smile on their face.</p>
     </div>
     <div class="flex-detail">
-        <h2>Feature 2</h2>
-        <p>Heres some more details</p>
+        <h2>Bring your enemies to keel!</h2>
+        <p>Shame. Embarassment. Unsettling glimpses of your natural limitations. We've all been there. Whether its the government, non-profit activist organinizations, the Church, or rival villains, our patented weather disaster technology will rain down strategic, widespread destruction on all those who would dare oppose you.</p>
     </div>
         <div class="flex-detail">
-        <h2>Feature 3</h2>
-        <p>Ok just a few more details</p>
+        <h2>Remove all hope!</h2>
+        <p>With our cutting edge Doomsday Technology, you can place a burning meteor the size of New York in orbit to remind your already defeated enemies that You're the Boss &trade; !</p>
     </div>
     </div>
   </div>
+  <div id="flex-price-container">
+      <div class="price-group">
+        <h3>PICTURESQUE LAIR</h3>
+        <p class="price">$100K/month</p>
+        <ul>
+            <li>Results in days</li>
+            <li>Choose from sunshine and pleasent rains</li>
+            <li>Rainbow Simulator included</li>
+            <li>Discounts for long-term contracts</li>
+        </ul>
+      </div>
+      <div class="price-group" id="price-group-split">
+        <h3>UNNATURAL DISASTER</h3>
+        <p class="price" >$10M</p>
+        <ul>
+            <li>Immediate destruction</li>
+            <li>Tornados, hurricanes, and directed energy</li>
+            <li>Safe viewing methods provided</li>
+            <li>Experimental Earthquake method available to select customers</li>
+        </ul>
+    </div>
+    <div class="price-group">
+        <h3>DOOMSDAY DEVICE</h3>
+        <p class="price">$100B</p>
+        <ul>
+            <li>Supplies limited!</li>
+            <li> Planet destroying rock from the Asteroid Belt</li>
+            <li>Fireball maintenance service provided free of charge for 5 years</li>
+            <li>Landfall service not included</li>
+        </ul>
+    </div>
+  </div>
+  <footer>
+      <p>Privacy</p>
+      <p>Terms</p>
+      <p>Contact</p>
+      <p id="copyright">Copyright 2021, Illuminati Solutions LLC</p>
+  </footer>
 </body>
